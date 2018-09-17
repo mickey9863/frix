@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Personal Information</title>
+        <style type="text/css">
+            * {box-sizing: border-box; }
+            body {
+                background-image: linear-gradient(to left, #370505, #651b17, #94381d, #c1591d, #eb8012); font-family: cursive; text-align: center; height: 100vh;
+                
+            }
+            
+            .container {background-image: linear-gradient(to right, #370505, #651b17, #94381d, #c1591d, #eb8012); width: 50%; height: 100%; margin: 0 auto;
+            }
+            textarea {width: 100%;} 
+            .row {width: 100%;}
+            .fng {width: 50%; float: left; padding: 0 5px;}
+            .fng label, .fng input {width: 100%; }
+            
+        </style>
+    </head>
+    <body>
+        <div class="container">
+    <h1> Hello there!!!</h1>
+            <div class="row">
+                <div class="fng">
+                    <label> Firstname</label>
+                    <input type="text" name="firstname">
+                </div>
+                <div class="fng">
+                    <label>Surname</label>
+                    <input type="text" name="surname">
+                </div>
+            </div>
+        <br>
+        <label>Gender</label>
+        <br>
+        Male
+        <input type="radio" name="male">
+        Female
+        <input type="radio" name="female">
+        <br>
+        Date of Birth
+        <input type="date" name="date">
+        <br>
+        <h4>Your Persona</h4>
+        <textarea name="personality" cols="90" rows="6"> Gist me about yourself</textarea>
+        <br>
+        <br>
+        <input type="submit" name="hand in your script" value="submit" style="background-image: linear-gradient(to right, #051937, #004d7a, #008793, #00bf72, #a8eb12); font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: orangered">
+        </div>
+    </body>
+</html>
